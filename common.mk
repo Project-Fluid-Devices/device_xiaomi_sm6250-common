@@ -243,6 +243,7 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    libplatformconfig \
     libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
