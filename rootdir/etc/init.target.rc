@@ -34,6 +34,7 @@ on early-init
     symlink /data/tombstones /tombstones
 
 on init
+    write /dev/stune/top-app/schedtune.boost 1
     write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
