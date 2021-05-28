@@ -16,3 +16,4 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # IORap
 ro.iorapd.enable=true
+iorapd.perfetto.enable=true
