@@ -151,7 +151,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_atoll
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi
 
 # FM
 PRODUCT_PACKAGES += \
@@ -347,6 +347,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.qcom.rc \
+    init.fingerprint.rc \
     init.target.rc \
     fstab.qcom \
     ueventd.qcom.rc
